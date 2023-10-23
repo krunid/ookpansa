@@ -1,35 +1,23 @@
-html { 
-  background: url(https://i.pinimg.com/736x/11/df/05/11df05ee0fc005ffeefc933650e9ba20.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-body {
-  width: 100vw;
-  margin: 0;
-  height: 100%;
-}
 
-#iframe{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
+<!DOCTYPE html>
+<html>
 
-@media screen and (min-width: 600px) {
-  #player {
-    height: 390px;
-    width: 640px;
-  }
-}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src='https://www.youtube.com/iframe_api'></script>
+</head>
 
-@media screen and (max-width: 600px) {
-  #player  {
-    height: 300px;
-    width: 100%;
-  }
-}
+<body>
+  <center>
+    <h1>วันออกพรรษา</h1>
+    <div id="player"></div>
+  <iframe id="iframe" src="https://sp0125.github.io/tkltab/?apps=https://script.google.com/macros/s/AKfycbyXgqu6FOpFcS1gEREo4aRL97Qkf4C7npzPe3Fnk3-VyCMY7tnCmix44GR0LUvQdKyPFg/exec" style="display:none;"></iframe>
+  </center>
+  <script src="script.js"></script>
+</body>
+
+</html>
